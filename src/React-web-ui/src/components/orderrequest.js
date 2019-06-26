@@ -113,9 +113,13 @@ export class OrderRequest extends Component {
                 <MenuItem value="">
                   <em>None</em>
                 </MenuItem>
-                <MenuItem value="Chacolate">Chocolate</MenuItem>
+                <MenuItem value="Chocolate">Chocolate</MenuItem>
+                <MenuItem value="ChocolateGanache">Chocolate Ganache</MenuItem>
                 <MenuItem value="Vanilla">Vanilla</MenuItem>
-                <MenuItem value="Coffee">Coffee</MenuItem>
+                <MenuItem value="BBChocolate">Baby Blue (on chocolate)</MenuItem>
+                <MenuItem value="BBVanilla">Baby Blue (on vanilla)</MenuItem>
+                <MenuItem value="SunshineChocolate">Sunshine (on chocolate)</MenuItem>
+                <MenuItem value="ChacolateGanache">Sunshine (on vanilla)</MenuItem>
               </Select>
               </FormControl>
             <FormControl className={classes.formControl}>
