@@ -24,6 +24,9 @@ const styles = theme => ({
     margin: "auto",
     textAlign: "center"
   },
+  selectField: {
+    width:250
+  },
   textField: {
     marginLeft: theme.spacing.unit,
     marginRight: theme.spacing.unit,
@@ -108,7 +111,7 @@ export class OrderRequest extends Component {
                     name: 'flavour',
                     id: 'cupcake-flavour',
                   }}
-                  className={classes.textField}
+                  className={classes.selectField}
               >
                 <MenuItem value="">
                   <em>None</em>
